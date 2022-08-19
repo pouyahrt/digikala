@@ -1,0 +1,7 @@
+
+div.prehead>img{
+    width: 100%;
+    object-fit:fill;
+    margin: 0px;
+    padding: 0px;
+}

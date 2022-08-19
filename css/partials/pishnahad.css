@@ -1,0 +1,101 @@
+div.pish{
+    width: 80%;
+    border: 15px;
+}
+div.shg {
+    width: 100%;
+    text-align: center;
+  }
+  div.products {
+    width: 80%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #ef3a4f;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+  
+  }
+  div.products > div.product {
+    width: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  div.products > div.product > img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+  }
+  div.products > div.product > h3 {
+    font-family: "pouya";
+    font-size: 24px;
+    margin-left: calc(50% - 60px);
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    direction: rtl;
+    
+  }
+  div.products > div.product > p > Span {
+    font-family: "pouya";
+    font-size: 14px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+  
+  }
+  div.products > div.product > p {
+    font-family: "pouya";
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    margin-left: calc(50% - 30px);
+    margin-bottom: 15px;
+    direction: rtl;
+  }
+  div.products > div.product > a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #ef3a4f;
+    color: rgb(255, 255, 255);
+    
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "pouya";
+    transition: all 300ms linear;
+    margin-left: calc(50% - 75px);
+  }
+  div.products > div.product > a:hover {
+    background-color: #f27583;
+    color: black;
+  }
+  div.products > img {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    
+  }
+  div.products > div.producti {
+      width: 15%;
+      padding: 20px;
+      box-sizing: border-box;
+      display: inline-block;
+  
+    }
+    div.products > div.productr {
+    border-radius: 15px;
+  
+    }

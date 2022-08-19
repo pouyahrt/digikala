@@ -1,0 +1,24 @@
+div.footer {
+  width: 100%;
+  background-color: aliceblue;
+
+  margin-top: 30px;
+  box-sizing: border-box;
+  text-align: right;
+  display: inline-block;
+  padding: 20px 50px;
+}
+
+div.footer > div.e1 > img {
+  width: 150px;
+  box-sizing: border-box;
+  text-align: center;
+}
+div.footer > div.e1 > h3 {
+  font-size: 24px;
+  font-family: "pouya";
+}
+div.footer > div.e1 > h3 > span {
+    color: #ef3a4f;
+  }
+  

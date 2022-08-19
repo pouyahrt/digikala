@@ -1,0 +1,69 @@
+div.super {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  div.kalas {
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #eceeed;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    height: auto;
+    vertical-align: middle;
+  }
+  div.kalas > div.kala {
+    width: 30px;
+  
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 0px 5px;
+  } 
+  div.kalas > div.kala>img {
+    width: 25px ;
+    object-fit: contain;
+  }
+  div.kalas > a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #39ae00;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "pouya";
+    transition: all 300ms linear;
+    margin-right: 50px;
+    
+   
+  }
+  div.kalas >  a:hover {
+    background-color: #acd398;
+    color: black;
+  }
+div.kalas > img{
+  width: 250px;
+  object-fit:cover;
+  margin-bottom: 10px;
+  vertical-align: middle;
+
+}
+div.kalas > img{
+  width: 250px;
+  object-fit:cover;
+  margin: 10px 30px;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+}
